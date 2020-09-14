@@ -3,11 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Cycle Tracks Trail Guide</title>
+        <link href="_css/main.css" rel="stylesheet" media="screen">
     </head>
     <body>
-      <header>
+      <header id="mainHeader">
           <!--branding and navigation-->
           <h1>Cycle Tracks</h1>
+          <p>your complete biking trail resource</p>
           <nav>
               <ul>
               <li><a href="blog.htm" title="Read our Blog">trail blog</a></li>
@@ -17,28 +19,84 @@
           </nav>
       </header> 
      <main>
+         <header>
           <h2>Trail Reviews</h2>
+          <p class="breadcrumbs"><a href="all_trails.htm">All Trails</a>  <a href="#">Ojai</a></p>
+          <p class="currentTrail">Ojai Trails</p>
+        </header>
        <article>
          <!--main review-->
+         <header>
           <h3>Northridge Loop</h3>
+        </header>
+        <p>
+            <img src="_images/trail_map.jpg" alt="Northridge Trail Map" title="Northridge Trail Map"> <img src="_images/trail_elevation.jpg" alt="Northridge Trail Elevation" title="Northridge Trail Elevation"> </p>
             <h4>Skill Level</h4>
             <h4>Surface</h4>
             <h4>Notable Features</h4>
             <h4>Final Thoughts</h4>
-         <section><!--comments-->
-           <h3>Comments</h3>
+            <footer>
+             <p>Author : "Daniel Weston"</p>
+             <a href="mailto:adfadf@cycletracks.org" title="Email Daniel"> mail id for daniel</a>
+           </footer>
+            <section><!--comments-->
+          <header>
+            <h3>Comments</h3>
+            <p>To leave a comment you must <a href="join.htm" title="Join our
+        crew">register</a> or <a href="login.htm" title="sign in">sign in</a>
+           </p>
+          </header>
+             <article class="comment"> 
+                <h4>Max Smith:</h4>
+                <p>Great review! Awesome spot on the West side of the loop.Had a great time!</p>
+             </article>
          </section>
        </article>
      </main>
-      <section><!--riders reviews and Ojai facts-->
+      <section id="riderReviews"><!--riders reviews and Ojai facts-->
         <h2>Rider Reviews</h2>
-          <h3>Los Robles Trail</h3>
+        <article>
+            <header>
+            <h3>Los Robles Trail</h3>
+            <p class="byline">by Danny Keys</p>
+            <p class="pubdate">submitted on 06/26/14
+            </p>
+            </header>
+            <p> We came across this trial last year but never got time to 
+                explore it until last month.
+            </p>
+        </article>
+        <aside>
           <h3>Ojai Trail Facts</h3>
+           <p>Ojai trail has over 200 miles of hiking and biking paths. Please take time to 
+               study your route well before going. Pay attention to the trail markers. Contact the local
+               cycling clubs if you come across any major issues.
+           </p>
+        </aside>
+        <header>
           <h3>Copper Canyon Loop</h3>
+          <p class="byline">by Shea Hansen </p>
+          <p class="pubdate">submitted on 04/30/14
+          </p>
+          <p>I went with my friend to the Copper Canyon Loop, or the
+              "coop" as they called it. It had poorly marked trails and lack of trail upkeep.
+          </p>
+        </header>
       </section>
-       <aside><!--Ad copy-->
+       <aside id="adCopy"><!--Ad copy-->
         <h3>Need a rental?</h3>
+        <img src="_images/bikes.jpg" alt="Melanie's Bikes">
+         <p>Melanie's Bikes has you covered!</p>
+          <p>If you're visiting Southern California and need a bike, give us a call! Free drop off and pick up.</p>
        </aside>
-       <footer><!--disclaimer and contact info--></footer>
+       <footer id="pageFooter"><!--disclaimer and contact info-->
+       <p><a href="mailto:info@cycletracks.org" title="give us a call">T:
+           25215421515
+       </a></p>
+       <p>all content &copy;copyright 2014 CT | please read our conditions<a href="#">Terms of Use</a></p>
+       <p>Cycle Tracks</p>
+       <p> 4252 xyz street <br>
+           Calgury, Canada</p>
+       </footer>
     </body>
 </html>
